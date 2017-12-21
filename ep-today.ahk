@@ -6,14 +6,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;Changelog 12/04/2017
 ;Created changelog
-; 12/04 Merged two different versions from my desk and nina's office. 
+; 12/04 Merged two different versions from my desk and the other office. 
 ; 12/04 I shall use the email draft to keep a live copy for further changes and syncing.
 ; 12/04 Added IfWinActive with ahk_class
 ; 12/05 Tried and commented out cycling thru shortcuts for firstclass colors
-; 12/05 Added banner login
+; 12/05 Added sis login
 ; 12/12 Added shift+alt+L link & replaced %clipboard% with dedicated variables
-; 12/20 -CS capitalizes and does not convert to epdocx
-; 12/20 Added a check if Clipboard starts with @ before renaming, else warning & Keeps DCEID in clipboard after renaming folders
+; 12/20 -XX capitalizes and does not convert to act_code
+; 12/20 Added a check if Clipboard starts with @ before renaming, else warning & Keeps @id in clipboard after renaming folders
 
 ; ------------------- BEGIN sis ----------------
 #IfWinActive, ahk_class SunAwtFrame
