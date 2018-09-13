@@ -4,7 +4,7 @@ A collection of scripts I developed to use in my daily tasks.
 ## 1. PrinttoPDF.ahk
 foo.pdf -> Microsoft Print to PDF -> foo_COPY.pdf
 
-Prints a pdf to pdf, appends "_COPY" to the filename.
+Prints pdfs to pdfs, appends "\_COPY" to the filename.
 
 Drag and drop.
 
