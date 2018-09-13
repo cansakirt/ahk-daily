@@ -9,7 +9,7 @@ extension := SubStr(file, -3)
 ; msgbox %extension%
 if extension != .pdf
 {
-	msgbox Not a pdf file.`nExiting... ;`n%file%`n%extension%
+	msgbox This is not a pdf file.`nExiting... ;`n%file%`n%extension%
 	exitapp
 }
 else
