@@ -11,7 +11,7 @@ Drag and drop.
 Uses Adobe Reader command line options:
 https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/Acrobat_SDK_developer_faq.pdf#page=24
 
-## 2. Fedex Label Creator
+## 2. Fedex Label Creator.ahk
 Gui thing to fill out the shipping form on fedex ship manager webpage with Excel data.
 
 After shipping, automatically prints the label, saves a screenshot of the created shipment page, and extracts the tracking number for further usage.
